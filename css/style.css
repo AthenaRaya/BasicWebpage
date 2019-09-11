@@ -1,11 +1,8 @@
 body{
-
+    
+  
   background-color: gray;
-
   color:black;
-}
-p{
-  font-family: 'Arvo', serif;
 }
 
 footer{
@@ -48,24 +45,31 @@ nav a:hover{
 
   border-bottom:2px solid;
 
-  font-size 2em;
+  font-size: 2em;
 
   transition: .9s;
 
   color: black;
 
 }
+test{
+  justify-content: left; 
 
+  color:bold;
+}
 main,nav {
-
+  
   display: flex;
 
   justify-content: center; 
-
+  font-family: 'Arvo', serif;
+   font-size: 1em;
   color:bold;
 
  }
-
+h1 {
+  text-shadow: 3px 2px white;
+}
 h1{
 
   font-family: 'Pattaya',cursive;
@@ -73,4 +77,24 @@ h1{
   font-size: 4em;
 
   margin-bottom: 0px;
+}
+a:link {
+  background-color: peachpuff;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block
+}
+
+p.important {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: purple;
+  font-size:2em;
+}
+p.normal {
+  border: 2px solid red;
+}
+
 
